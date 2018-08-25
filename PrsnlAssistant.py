@@ -8,7 +8,7 @@ import smtplib
 #speaks audio passed as argument
 def talkToMe(audio):
     print(audio)
-    tts = gTTS(text-audio, lang='en')
+    tts = gTTS(text=audio, lang='en')
     os.system('mpg123 audio.mp3')
 
 #listen for commands
